@@ -1,7 +1,6 @@
 // Carne - 400g por pessoa + de 6 horas - 650
 // Cerveja - 1200ml por pessoa + de 6 horas - 2000ml 
 // Refrigerante/água - 1000ml por pessoa + de 6 horas 1500ml
-
 //crianças valem por 0,5
 
 
@@ -30,9 +29,9 @@ function calcular(){
 
 function carnePP(duracao) {
   if(duracao >= 6){
-    return 650;
+    return 750;
   } else{
-    return 400;
+    return 500;
   }
 }
 
